@@ -96,7 +96,7 @@
 				<key>script</key>
 				<string>query="{query}"
 
-php -f ./vsc.php "{query}"</string>
+/opt/homebrew/bin/php -f ./vsc.php "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
