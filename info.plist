@@ -161,8 +161,10 @@ With ⌘+C you can copy the absolute path. With ⌘+Enter you open the directory
 			<integer>275</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>http://jonathanstroebele.de</string>
 </dict>

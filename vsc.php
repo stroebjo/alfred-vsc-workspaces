@@ -14,6 +14,10 @@ foreach($workspaces as $dir) {
         $config_str = file_get_contents($config_file);
         $config = json_decode($config_str);
 
+        if (!property_exists($config, 'folder')) {
+            continue;
+        } 
+
         // spaces are encoded as %20 so we use urldecode
         $workspace_folder = str_replace('file://', '', urldecode($config->folder));
         $workspace_name = basename($workspace_folder);
